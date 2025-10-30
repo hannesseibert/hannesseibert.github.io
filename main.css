@@ -1,0 +1,77 @@
+.portrait {
+  height: auto;
+  width: 100%;
+}
+
+.portrait-container {
+  position: relative;
+}
+
+.bio {
+  position: absolute;
+  top: 10%;
+  width: 10%;
+  left: 8vw;
+  font-size: 6vw;
+  color: red;
+}
+
+.projects-text {
+  font-size: 10vw;
+  padding: 25vw 0;
+  text-align: center;
+  color: red;
+}
+
+
+
+.thumbnail-container {
+  position: relative;
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.thumbnail-container img {
+  width: 100%;
+  height: auto;
+}
+
+.thumbnail-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: ease 0.15s;
+}
+
+.thumbnail-container:hover .thumbnail-2 {
+  opacity: 1;
+}
+
+.video-title {
+  position: absolute;
+  top: -5vw;
+  color: red;
+  font-size: 2vw;
+}
+
+.video-discription {
+  position: absolute;
+  bottom: -6vw;
+  color: red;
+  font-size: 1.2vw;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: black;
+  color: white;
+  font-family: Roboto, Arial;
+  padding: 3px 6px;
+  border-radius: 2px;
+}
